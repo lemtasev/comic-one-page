@@ -1,0 +1,108 @@
+body{
+	/*background-color: black;*/
+}
+
+.cus-header {
+	position: sticky;
+	top: 0;
+	z-index: 99;
+	background-color: black;
+}
+
+.comic-info {
+	color: #fff;
+}
+
+.comic-info > a{
+	margin: 0 10px;
+	color: #fff;
+}
+.comic-info > a:hover{
+	color: orange;
+}
+
+.cusHtmlBox {
+    width: 100%;
+    min-height: 50px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.cusHtmlBox > img {
+	max-width: 100%;
+}
+
+.cusHtmlBox > .hidden-url {
+    display: none;
+}
+
+.cusHtmlBox > .page-index {
+    width: 50px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: green;
+    color: white;
+    font-size: 30px;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+	cursor: pointer;
+}
+
+.cusHtmlBox > .page-index:hover {
+   background-color: orange;
+}
+
+.cusHtmlBox > .refresh-btn {
+	display: none;
+    border-radius: 5px;
+    background-color: deepskyblue;
+    color: white;
+    font-size: 18px;
+    /* position: absolute;
+    right: 10px;
+    top: 10px; */
+	padding: 5px 10px;
+}
+.cusHtmlBox > .refresh-btn:hover {
+    background-color: blue;
+}
+
+.operation-line {
+    background-color: orange;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 50px;
+}
+.operation-line > a, .operation-line > span {
+	color: white;
+    width: 50%;
+	height: 100%;
+	display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.operation-line > a:hover {
+	color: white;
+    width: 50%;
+	height: 100%;
+	background-color: rgba(255, 102, 102, 0.8);
+}
+
+#page-nav{
+	display: flex;
+	flex-wrap: wrap;
+}
+#page-nav > a{
+	margin: 0 10px;
+	color: #fff;
+}
+#page-nav > a:hover{
+	color: orange;
+}
